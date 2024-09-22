@@ -1,2 +1,3 @@
 # Home_Sales
 Module 22
+Module 22 required a Spark DataFrame to be completed along with a temporary table of the original df and several queries regarding the original df. After queries were written and returned, a cache of the temporary table was created and validated as well as a partition of the dataset by the home sales "date_built" field. A temporary table of the parquet data was created and one of the queries was run again to determine if the speed was faster, and it was. The temporary table was uncached and verified prior to closing the notebook. This module was completed using Google Colab.
